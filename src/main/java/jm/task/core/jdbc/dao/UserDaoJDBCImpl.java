@@ -30,7 +30,7 @@ public class UserDaoJDBCImpl implements UserDao {
 
     private static final String SQL_GET = "SELECT * FROM user.users";
 
-    private static final String SQL_CLEAN = "DELETE FROM user.users WHERE id";
+    private static final String SQL_CLEAN = "DELETE FROM user.users";
 
     public void createUsersTable() {
         try (Connection connection = Util.getConnection();
