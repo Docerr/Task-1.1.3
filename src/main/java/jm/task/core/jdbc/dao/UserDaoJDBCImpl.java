@@ -26,7 +26,7 @@ public class UserDaoJDBCImpl implements UserDao {
             + "VALUES "
             + "(?,?,?) ";
 
-    private static final String SQL_REMOVE = "DELETE FROM user.users WHERE id = ?";//удаляет все айди
+    private static final String SQL_REMOVE = "DELETE FROM user.users WHERE id = ?";
 
     private static final String SQL_GET = "SELECT * FROM user.users";
 
